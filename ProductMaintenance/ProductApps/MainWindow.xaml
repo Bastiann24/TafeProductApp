@@ -14,10 +14,12 @@
         <Button Name="calculateButton" Content="_Calculate" HorizontalAlignment="Left" Height="37" Margin="327,152,0,0" VerticalAlignment="Top" Width="122" Click="calculateButton_Click"/>
         <Button Name="clearButton" Content="C_lear" HorizontalAlignment="Left" Height="34" Margin="327,209,0,0" VerticalAlignment="Top" Width="122" Click="clearButton_Click"/>
         <Button Name="closeButton" Content="Cl_ose" HorizontalAlignment="Left" Height="34" Margin="327,264,0,0" VerticalAlignment="Top" Width="122" Click="closeButton_Click"/>
-        <Label Content="Total Charge after adding &amp;#xA; delivery charge ($25):" HorizontalAlignment="Left" Margin="5,200,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="totalChargeTextBlock" HorizontalAlignment="Left" Margin="117,236,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <Label Content="Total charge after adding the wrap charge ($5):" HorizontalAlignment="Left" Margin="26,268,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="totalChargeWrap" HorizontalAlignment="Left" Margin="137,297,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label Content="Total Charge after adding&#xD;&#xA;delivery charge ($25):" HorizontalAlignment="Left" Margin="34,193,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="totalChargeTextBlock" HorizontalAlignment="Left" Margin="227,213,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label Content="Total charge after adding &#xD;&#xA;the wrap charge ($5):" HorizontalAlignment="Left" Margin="33,236,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="totalChargeWrap" HorizontalAlignment="Left" Margin="225,258,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label Content="Total charge after GST @10%:" HorizontalAlignment="Left" Margin="30,290,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="totalChargeGST" HorizontalAlignment="Left" Margin="223,297,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
 
 
     </Grid>
